@@ -1,8 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
+import LogoSearchBar from './Components/LogoSearchBar/LogoSearchBar';
+import Carousel from './Components/Carousel/Carousel';
+import TopBanner from './Components/TopBanner/TopBanner';
+import FlashSale from './Components/FlashSale/FlashSale';
+import BarazMall from './Components/BarazMall/BarazMall';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +13,11 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
+      <LogoSearchBar></LogoSearchBar>
+      <Carousel></Carousel>
+      <TopBanner></TopBanner>
+      <FlashSale></FlashSale>
+      <BarazMall></BarazMall>
     </>
   )
 }
