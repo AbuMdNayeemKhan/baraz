@@ -1,5 +1,6 @@
-import React from 'react';
+ import React from 'react';
 import './Navbar.css';
+import navbarData from './../Data/NavbarData';
 
 const Navbar = () => {
     return (
@@ -12,27 +13,12 @@ const Navbar = () => {
 
                 <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto text-center">
-                    <li className="nav-item">
-                        <a className="nav-link" href="/">SAVE MORE ON APP</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/">SELL ON BARAZ</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/">CUSTOMAR CARE</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/">TRACKING ORDER</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/">SIGNUP/LOGIN</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/">DARAZ AFFILIATE PROGRAM</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/">ভাষা</a>
-                    </li>
+                    {navbarData.map((items) => 
+                        <li key={items.id} className="nav-item">
+                            <a className="nav-link" href="/">{items.list}</a>
+                        </li>
+                    )}
+                    
                 </ul>
                 </div>
             </div>

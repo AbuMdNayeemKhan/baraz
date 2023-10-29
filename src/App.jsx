@@ -6,7 +6,6 @@ import Carousel from './Components/Carousel/Carousel';
 import TopBanner from './Components/TopBanner/TopBanner';
 import FlashSale from './Components/FlashSale/FlashSale';
 import BarazMall from './Components/BarazMall/BarazMall';
-
 function App() {
   const [count, setCount] = useState(0)
 
