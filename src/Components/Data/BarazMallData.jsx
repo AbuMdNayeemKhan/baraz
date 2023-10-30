@@ -1,14 +1,14 @@
-import f1 from '../../assets/images/f1.jpg';
-import f2 from '../../assets/images/f2.jpg';
-import f3 from '../../assets/images/f3.jpg';
-import f4 from '../../assets/images/f4.jpg';
-import f5 from '../../assets/images/f5.jpg';
-import f6 from '../../assets/images/f6.jpg';
+import b1 from '../../assets/images/d1.jpg';
+import b2 from '../../assets/images/d2.jpg';
+import b3 from '../../assets/images/d3.jpg';
+import b4 from '../../assets/images/d4.jpg';
+import b5 from '../../assets/images/d5.jpg';
+import b6 from '../../assets/images/d6.jpg';
 
-const FlashSaleData = [
+const BarazMallData = [
     {
         id: 1,
-        image: f1,
+        image: b1,
         name: "Buds Air wireless Bluetooth Headsets in Ear...",
         price: 400,
         prevPrice: 600,
@@ -16,7 +16,7 @@ const FlashSaleData = [
     },
     {
         id: 2,
-        image: f2,
+        image: b2,
         name: "Vivo/Oppo/MI in Ear Earphone Good Bass...",
         price: 135,
         prevPrice: 200,
@@ -24,7 +24,7 @@ const FlashSaleData = [
     },
     {
         id: 3,
-        image: f3,
+        image: b3,
         name: "TWS i7s Double Dual Mini Earphone With Power Cas...",
         price: 348,
         prevPrice: 700,
@@ -32,7 +32,7 @@ const FlashSaleData = [
     },
     {
         id: 4,
-        image: f4,
+        image: b4,
         name: "Vivo In Ear Earphone Best Sound quality for any...",
         price: 131,
         prevPrice: 200,
@@ -40,7 +40,7 @@ const FlashSaleData = [
     },
     {
         id: 5,
-        image: f5,
+        image: b5,
         name: "01 Pcs Anti Rfid Card Holder NFC Blocking",
         price: 26,
         prevPrice: 36,
@@ -48,7 +48,7 @@ const FlashSaleData = [
     },
     {
         id: 6,
-        image: f6,
+        image: b6,
         name: "Electric Hot Water Bag pain remover [Multicolor]",
         price: 163,
         prevPrice: 550,
@@ -56,4 +56,4 @@ const FlashSaleData = [
     }
 ];
 
-export default FlashSaleData;
+export default BarazMallData;

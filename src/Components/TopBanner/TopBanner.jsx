@@ -7,7 +7,7 @@ const TopBanner = () => {
     return (
         <div className="top-banner">
             <div className='container'>
-            <img className='d-block mx-auto my-3' src={top} alt="" />
+            <img className='d-block mx-auto py-3' src={top} alt="" />
                 <div className="row">
                     {TopBannerData.map((data, index) => 
                         <div key={index} style={{borderRadius: '50px'}} className="col m-2 bg-white m-2">
